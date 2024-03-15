@@ -1,0 +1,150 @@
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fffb00e8;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.container-header nav {
+    display: flex;
+    height: 5em;
+    width: 90%;
+    margin: 2em auto;
+    background-color: white;
+}
+
+.container-header ul li a{
+    text-decoration: none;
+    color: #5f5f5f;
+    transition: .30s;
+}
+
+.container-header ul li a:hover{
+    color: black;
+    font-size: 1.1em;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+}
+
+.icon-titulo{
+    margin-left: 1em;
+}
+
+.txt-link_titulo{
+    margin-left: 0.3em;
+}
+
+.container-header ul {
+    display: flex;
+    margin: auto 0 auto auto;
+}
+
+.container-header ul li {
+    list-style: none;
+    margin: 0 1.5em;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.container-main{
+    display: flex;
+    /* flex-direction: column; */
+    width: 90%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.container-main h2{
+    font-weight: 400;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 50%;
+    margin: 5% auto 0 10%;
+    /* border: 1px solid red; */
+}
+
+.content h1{
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+.content h1 strong{
+    font-weight: 1000;
+}
+
+.content h2{
+    font-size: 1.8em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.content ul{
+    list-style: none;
+    margin: 1em 0;
+    font-size: 1.2em;
+}
+
+.buttons{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_download{
+    border: 2px solid black;
+    padding: 0.5em;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: 0.30s;
+}
+
+.btn_download:hover{
+    transform: scale(1.2);
+}
+
+.btn_View{
+    border: 2px solid black;
+    padding: 0.5em;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 1em;
+    font-size: 1.2em;
+    transition: 0.30s;
+}
+
+.btn_View:hover{
+    transform: scale(1.2);
+}
+
+.item_list{
+    margin: 0.5em 0;
+}
+
+.link_text{
+    text-decoration: none;
+    color: black;
+}
